@@ -1,0 +1,7 @@
+#spring:
+#  datasource:
+#    local-datasource:
+#      type: com.alibaba.druid.pool.DruidDataSource
+#      druid:
+#        driver-class-name: org.elasticsearch.xpack.sql.jdbc.EsDriver
+#        url: jdbc:es://http://server:3456/?timezone=UTC&page.size=250
